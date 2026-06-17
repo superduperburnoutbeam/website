@@ -60,12 +60,10 @@ table {
     margin-bottom: 50px;
 }
 #container { 
-    min-height: 70vh;
     height: auto;
-    width: 60vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     column-gap: 50px;
     row-gap: 50px;
     padding: 10px;

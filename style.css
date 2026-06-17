@@ -119,11 +119,11 @@ table {
   vertical-align: super;
 }
 .block{
-  height: 60vh;
-  width: 95%;
+  height: 50vh;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: 1fr 1fr;
   gap: 15px;
 }
 .block div{
@@ -139,7 +139,13 @@ table {
 .colleges{
   border: none;
 }
-
+.bears_livestream{
+  max-width: 100%;
+  width: 30%;
+  min-width: 280px;
+  max-height: 100%;
+  min-height: 162.5px;
+}
 /* colors in use
 https://coolors.co/cfe8e9-bdbdd5-d93c37-594c3e
 soft white #E0DFDC
