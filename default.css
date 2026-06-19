@@ -1,0 +1,77 @@
+/* colors in use
+https://coolors.co/cfe8e9-bdbdd5-d93c37-594c3e
+soft white #FFFFFF
+soft blue #bdbdd5
+drak blue #31529c
+slate grey #737b9c
+dark red #622031
+light red #bd3152
+*/
+@font-face {
+  font-family: "runholdy";
+  src: url("../fonts/Runholdy.ttf");
+}
+@font-face {
+  font-family: "Spirits";
+  src: url("../fonts/spirits-soft.otf");
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Spirits";
+    color: #622031;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #FFFFFF;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#main {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #bdbdd5;
+}
+.header {
+    font-size: 50px;
+    font-family: runholdy;
+}
